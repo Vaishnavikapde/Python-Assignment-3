@@ -1,13 +1,6 @@
 import math
 No = int(input("Enter the Number : "))
 
-def fact(No):
-  if No<0:
-      print("Factorial doesnt exist for negative number")
-  else:
-      return math.factorial(No)
-
-
-ret = fact(No)
-
-print(f"factorial of {No} is {ret}")
+print(f"Sqaure root of {No} is {math.sqrt(No)}")
+print(f"Log of {No} is {math.log(No)}")
+print(f"Sin of {No} is {math.sin(No)}")
